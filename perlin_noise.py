@@ -131,7 +131,8 @@ class PerlinNoise:
             for _ in range(len(self._heightmap))
         ]
 
-        # when using this method the landscape changes when using the InteractiblePerlinNoise class
+        # using the commented out way of normalizing data it can cause the 
+        # terrain to change when moving around (referring to InteractivePerlinNoise child class)
         # heights = [height for row in self._heightmap for height in row]
         # max_height = max(heights)
         # min_height = min(heights)
