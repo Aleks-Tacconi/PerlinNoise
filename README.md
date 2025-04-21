@@ -1,4 +1,4 @@
-# PerlinNoise
+# Perlin Noise
 
 ![](image.png)
 
